@@ -1,0 +1,76 @@
+body {
+    margin: 0;
+}
+
+.apple2 {
+   width: 100%;
+   height: 40px;
+   background-color: rgb(228, 228, 208);
+   text-align: center;
+   padding-top: 10px;
+
+}
+
+.apple2 div {
+margin-top: 5px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: 14px;
+}
+
+.apple3 {
+    width: 100%;
+    height: 800px;
+    background-color: grey;
+    text-align: center;
+    padding-top: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    list-style-type: none;
+}
+
+.dark {
+    background-color: black;
+    color: white; 
+}
+.m-top {
+    margin-top: 20px;
+}
+a {
+    margin-left: 5px;
+    white-space: nowrap;
+    text-decoration: none;
+}
+ 
+.grid {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    background-color: white;
+    gap: 20px;
+}
+.text {
+    margin-left: 120px;
+    margin-right: 120px;
+
+ }
+ .wrapper {
+     max-width: 0 auto;
+     text-align: left;
+ }
+.display-flay {
+    display: flex;
+    font-family: sans-serif;
+    margin: 0 auto;
+}
+.display-flay ul li{
+    margin-top: 10px;
+    list-style: none;
+    font-family: monospace;
+    font-weight: bold;
+}
+.display-flay ul li a {
+    color: gray;
+}
+.display-flay ul li a:hover{
+    text-decoration: underline;
+    text-decoration-color: black;
+}
+
